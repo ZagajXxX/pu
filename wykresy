@@ -1,0 +1,374 @@
+ ans  =
+
+   1.
+
+--> x = [0:0.01:2*%pi];
+
+-->  y = sin(x);
+
+--> z = cos(x);
+
+--> plot(x,y)
+
+--> x = [0:0.01:2*%pi];
+
+-->  y = sin(x);
+
+--> z = cos(x);
+
+--> plot(x,y,x,z)
+
+--> 
+
+--> x = [0:0.01:2*%pi];
+
+--> y = sin(x);
+
+--> z = cos(x);
+
+--> plot(x,y,'LineWidth',3)
+
+--> plot(x,z,'r','LineWidth',3)
+
+--> 
+
+--> xgrid
+
+--> x = [0:0.01:2*%pi];
+
+--> y = sin(x);
+
+--> z = cos(x);
+
+--> plot(x,y,'LineWidth',3)
+
+--> plot(x,z,'r','LineWidth',3)
+
+--> xgrid
+
+--> xlabel('x')
+
+--> ylabel('sin(x), cos(x)')
+
+--> title('Plot of sin(x) and cos(x)')
+
+--> legend('sin(x)', 'cos(x)',3)
+ ans  =
+
+Handle of type "Legend" with properties:
+========================================
+parent: Axes
+children: []
+visible = "on"
+text = ["sin(x)";"cos(x)"]
+font_style = 6
+font_size = 1
+font_color = -1
+fractional_font = "off"
+links = ["Polyline";"Polyline"]
+legend_location = "in_lower_left"
+position = [0.134375,0.778587]
+line_width = 0.1
+line_mode = "on"
+thickness = 1
+foreground = -1
+fill_mode = "on"
+background = -2
+marks_count = 3
+clip_state = "off"
+clip_box = []
+user_data = []
+tag = ""
+
+--> f(x)=e^(3x)
+f(x)=e^(3x)
+        ^~^
+Error: syntax error, unexpected identifier, expecting end of file
+
+--> x = [0:10];
+
+-->  y = sin(x);
+
+--> z = cos(x);
+
+--> plot(x,y,'LineWidth',3)
+
+--> plot(x,y,'g','LineWidth',3)
+
+--> x = [0:0.01:10];
+
+--> y = sin(x);
+
+--> z = cos(x);
+
+--> plot(x,y,'gr','LineWidth',3)
+
+--> x = [0:0.01:10];
+
+--> y = %e^(3*x);
+
+--> plot(x,y,'b')
+
+--> plot(x,y,'b','linewidth',5)
+
+--> x = [0:0.01:10];
+
+--> y = %e^(3*x);
+
+--> plot(x,y,'b','linewidth',5)
+
+--> xgrid
+
+--> xlabel('x')
+
+--> ylabel('sin(x), cos(x)')
+
+--> legend('sin(x)', 'cos(x)',3)
+ ans  =
+
+Handle of type "Legend" with properties:
+========================================
+parent: Axes
+children: []
+visible = "on"
+text = "sin(x)"
+font_style = 6
+font_size = 1
+font_color = -1
+fractional_font = "off"
+links = "Polyline"
+legend_location = "in_lower_left"
+position = [0.134375,0.8133696]
+line_width = 0.1
+line_mode = "on"
+thickness = 1
+foreground = -1
+fill_mode = "on"
+background = -2
+marks_count = 3
+clip_state = "off"
+clip_box = []
+user_data = []
+tag = ""
+
+--> x = [0:0.01:10];
+
+--> y = x^3+4*x^2;
+
+--> x = [0:0.01:10];
+
+--> y = x^3+4*x^2+3*x+5;
+
+--> plot(x,y,'r','linewidth',5)
+
+--> legend('sin(x)', 'cos(x)',3)
+ ans  =
+
+Handle of type "Legend" with properties:
+========================================
+parent: Axes
+children: []
+visible = "on"
+text = ["sin(x)";"cos(x)"]
+font_style = 6
+font_size = 1
+font_color = -1
+fractional_font = "off"
+links = ["Polyline";"Polyline"]
+legend_location = "in_lower_left"
+position = [0.134375,0.778587]
+line_width = 0.1
+line_mode = "on"
+thickness = 1
+foreground = -1
+fill_mode = "on"
+background = -2
+marks_count = 3
+clip_state = "off"
+clip_box = []
+user_data = []
+tag = ""
+
+--> x = [0:0.01:10];
+
+--> y = x^3+4*x^2+3*x+5;
+
+--> plot(x,y,'r','linewidth',5)
+
+--> xgrid
+
+--> xlabel(x)
+at line    39 of function TitleLabel ( C:\Program Files\scilab-6.1.1\modules\graphics\macros\TitleLabel.sci line 51 )
+at line    10 of function xlabel     ( C:\Program Files\scilab-6.1.1\modules\graphics\macros\xlabel.sci line 21 )
+
+xlabel: Wrong size or type for input argument #1: string expected.
+--> xlabel('x')
+
+--> ylabel('y = x^3+4*x^2+3*x+5')
+
+--> legend('sin(x)', 'cos(x)',3)
+ ans  =
+
+Handle of type "Legend" with properties:
+========================================
+parent: Axes
+children: []
+visible = "on"
+text = "sin(x)"
+font_style = 6
+font_size = 1
+font_color = -1
+fractional_font = "off"
+links = "Polyline"
+legend_location = "in_lower_left"
+position = [0.134375,0.8133696]
+line_width = 0.1
+line_mode = "on"
+thickness = 1
+foreground = -1
+fill_mode = "on"
+background = -2
+marks_count = 3
+clip_state = "off"
+clip_box = []
+user_data = []
+tag = ""
+
+--> x = [0:0.01:10];
+
+--> y = log2(2*x+4)/log2(5);
+
+--> plot(x,y,'r','linewidth',5)
+
+--> xgrid
+
+--> xlabel('x')
+
+--> ylabel('y')
+
+--> title('title')
+
+--> legend('sin(x)', 'cos(x)',3)
+ ans  =
+
+Handle of type "Legend" with properties:
+========================================
+parent: Axes
+children: []
+visible = "on"
+text = "sin(x)"
+font_style = 6
+font_size = 1
+font_color = -1
+fractional_font = "off"
+links = "Polyline"
+legend_location = "in_lower_left"
+position = [0.134375,0.8133696]
+line_width = 0.1
+line_mode = "on"
+thickness = 1
+foreground = -1
+fill_mode = "on"
+background = -2
+marks_count = 3
+clip_state = "off"
+clip_box = []
+user_data = []
+tag = ""
+
+--> legend('sin(x)', 'cos(x)',4)
+ ans  =
+
+Handle of type "Legend" with properties:
+========================================
+parent: Axes
+children: []
+visible = "on"
+text = "sin(x)"
+font_style = 6
+font_size = 1
+font_color = -1
+fractional_font = "off"
+links = "Polyline"
+legend_location = "in_lower_right"
+position = [0.7133197,0.8133696]
+line_width = 0.1
+line_mode = "on"
+thickness = 1
+foreground = -1
+fill_mode = "on"
+background = -2
+marks_count = 3
+clip_state = "off"
+clip_box = []
+user_data = []
+tag = ""
+
+--> x = [0:0.01:10];
+
+--> y = log(x^3);
+
+--> plot(x,y,'r','linewidth',5)
+
+--> xgrid
+
+--> xlabel('x')
+
+--> ylabel('y')
+
+--> title('title')
+
+--> legend('sin(x)', 'cos(x)',4)
+ ans  =
+
+Handle of type "Legend" with properties:
+========================================
+parent: Axes
+children: []
+visible = "on"
+text = "sin(x)"
+font_style = 6
+font_size = 1
+font_color = -1
+fractional_font = "off"
+links = "Polyline"
+legend_location = "in_lower_right"
+position = [0.7133197,0.8133696]
+line_width = 0.1
+line_mode = "on"
+thickness = 1
+foreground = -1
+fill_mode = "on"
+background = -2
+marks_count = 3
+clip_state = "off"
+clip_box = []
+user_data = []
+tag = ""
+
+--> x = [0:0.01:10];
+
+--> y = log(-3*x-4)/log(e);
+
+Undefined variable: e
+
+--> y = log(-3*x-4)/log(%e);
+
+--> plot(x,y,'r','linewidth',5)
+
+--> x = [0:0.01:10];
+
+--> y = log2(-3*x-4)/log2(%e);
+
+--> plot(x,y,'r','linewidth',5)
+
+--> xgrid
+
+--> xlabel('x')
+
+--> ylabel('y')
+
+--> lable('í µí±“(í µí±Ą) = ln(â’3í µí±Ą â’ 4)')
+
+Undefined variable: lable
+
